@@ -37941,7 +37941,6 @@ GameObject:
   - component: {fileID: 913540208}
   - component: {fileID: 913540209}
   - component: {fileID: 913540210}
-  - component: {fileID: 913540211}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -38025,18 +38024,6 @@ MonoBehaviour:
   player: {fileID: 913540209}
   numbers: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
   numberObjectCount: 0
---- !u!114 &913540211
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 913540206}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 548fbcbbb32e0ff4cb2b14e78599830f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ItemScript
 --- !u!1 &913869524
 GameObject:
   m_ObjectHideFlags: 0
@@ -39493,7 +39480,7 @@ Light:
   serializedVersion: 12
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 45.15
+  m_Intensity: 18.17
   m_Range: 6.73
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -39536,7 +39523,7 @@ Light:
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
-  m_ColorTemperature: 5737
+  m_ColorTemperature: 4071
   m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0

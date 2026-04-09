@@ -21,7 +21,7 @@ public class TestScript : MonoBehaviour
                 break;
             }
         // If GameObject matches number, print the found GameObject
-        print(GameObject.Find(currentNumber.ToString()));
+       // print(GameObject.Find(currentNumber.ToString()));
         currentNumber += 1;
         numberObjectCount += 1;
         }
@@ -38,3 +38,4 @@ public class TestClass
         public String punaset = "ei ole puuhöylä";
     }
 }
+
