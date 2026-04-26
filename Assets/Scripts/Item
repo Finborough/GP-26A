@@ -1,20 +1,3 @@
-using System;
-using Unity.VisualScripting;
-using UnityEngine;
-using UnityEngine.InputSystem.Interactions;
-
-public class ItemScript : MonoBehaviour
-{
-    void Start()
-    {
-        IUsable Weapon = new Weapon();
-        IUsable Potion = new Potion();
-        Weapon.UseItem();
-        Potion.UseItem();
-    }
-
-
-}
 interface IUsable
 {
     void UseItem();
@@ -37,4 +20,3 @@ class Potion : IUsable
         Debug.Log("Drank a " + potionType + " potion");
     }
 }
-

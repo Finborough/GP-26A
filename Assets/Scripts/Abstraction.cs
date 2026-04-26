@@ -14,3 +14,7 @@ public class Abstraction : MonoBehaviour
         
     }
 }
+abstract class Abstractoricurion
+{
+    
+}
